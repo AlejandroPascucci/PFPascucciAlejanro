@@ -1,0 +1,169 @@
+
+@font-face {
+    font-family: stencil;
+    src: url(fonts/Stenciln.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+header{
+    text-decoration: none;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.logo{
+
+text-align: center;
+line-height: 10px;
+letter-spacing: 16px;
+
+}
+
+h1{
+    padding: none;
+    margin-bottom: 10px;
+    letter-spacing: 25px;
+    font-family: stencil;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+
+}
+
+hr{
+    border: solid 1px;
+    color: rgb(102, 6, 6);
+
+
+}
+
+
+ul{
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    word-spacing: 19px;
+    padding: 15px;
+
+}
+
+ul li{
+    display: inline-block;
+    padding: none;
+
+}
+
+ul a{
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}
+
+ul a:hover{
+    color: rgba(102, 6, 6, 0.651);
+    text-decoration: none;
+}
+
+span{
+    margin-top: 40px;
+margin-bottom: 15px;
+color: rgba(102, 6, 6, 0.651);
+
+}
+
+
+
+
+nav{
+    margin-top: 25px;
+}
+
+
+main{
+height: 100vh; 
+width: 100%;
+background-color: gray;
+background-image: url(images/1e@0\,75x.jpg);
+background-size: cover;
+}
+
+.sec1{
+    background-image: none;
+}
+
+
+
+h2{
+    font-family: stencil;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 50px;
+}
+
+p.info {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(131, 25, 25);
+text-align: center;
+padding: 30px;
+}
+
+
+.cont1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+
+.item{
+    height: 250px;
+    width: 360px;
+    background-color: gray;
+    border: 2px solid white;
+
+}
+
+
+
+footer{
+
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(29, 27, 27);
+line-height: 45px;
+}
+
+
+
+p{
+    font-size: 20px;
+    color: white;
+}
+
+.redes a{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+
+.redes a:hover{
+    color: rgb(102, 6, 6);
+}
+
+iframe {
+    border: 1px solid rgb(255, 255, 255);
+    width: 25%;
+
+}
