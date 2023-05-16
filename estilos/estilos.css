@@ -161,4 +161,21 @@ p {
   height: 250px;
   background-position: center;
   background-size: cover;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+.img-fluid a img {
+  filter: blur(3px);
+  transition: 0.5s ease-in-out;
+}
+
+.img-fluid a:hover img {
+  filter: blur(0);
+}
+
+.img-fluid {
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
