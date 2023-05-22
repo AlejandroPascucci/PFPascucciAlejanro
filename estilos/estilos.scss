@@ -11,7 +11,7 @@
 
 header {
     text-decoration: none;
-    height: 200px;
+    height: 150px;
     width: 100%;
     background-color: rgb(255, 255, 255);
     font-size: 40px;
@@ -26,30 +26,40 @@ header {
 
 h1 {
     padding: none;
-    margin-bottom: 10px;
+    margin-bottom: none;
+    margin-top: 15px;
     letter-spacing: 25px;
     font-family: stencil;
     font-style: normal;
     font-weight: lighter;
-    font-size: 100px;
+    font-size: 80px;
     text-decoration: none;
+    text-align: center;
 }
+
 
 hr {
     border: solid 1px;
     color: rgb(102, 6, 6);
+    
 }
+
+
 
 ul {
     list-style: none;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     word-spacing: 19px;
-    padding: 15px;
+    padding: none;
+
 }
 
 ul li {
     display: inline-block;
+
+
+
 }
 
 ul a {
@@ -64,15 +74,20 @@ ul a:hover {
 }
 
 span {
-    margin-top: 40px;
-    margin-bottom: 15px;
+
     color: rgba(102, 6, 6, 0.651);
     text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+
 }
 
 nav {
-    margin-top: 40px;
+    margin-top: none;
+
 }
+
+
 
 h2 {
     font-family: stencil;
@@ -82,11 +97,12 @@ h2 {
 }
 
 p.info {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     color: rgb(131, 25, 25);
     text-align: center;
     padding: 30px;
 }
+
 
 .cont1 {
     display: flex;
@@ -94,13 +110,17 @@ p.info {
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-evenly;
+
 }
+
+
 
 .item {
     height: 250px;
     width: 360px;
     background-color: gray;
     border: 2px solid white;
+
 }
 
 main {
@@ -114,7 +134,10 @@ img {
     margin-bottom: 10px;
 }
 
+
+
 footer {
+
     text-align: center;
     padding: 20px;
     background-color: rgb(29, 27, 27);
@@ -138,8 +161,11 @@ p {
     color: rgb(102, 6, 6);
 }
 
+
+
 .btn {
     background-color: rgb(47, 65, 13);
+
 }
 
 .card-title {
@@ -156,25 +182,111 @@ p {
 .text-muted {
     font-size: 25px;
     text-align: center;
+
 }
 
-.item {
-    height: 250px;
-    background-position: center;
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(../images/1.jpg);
     background-size: cover;
+    background-position: center;
+    }
+
+    .wrap-texto{
+
+        color: #fff;
+        text-align: center;
+        width: 60%;
+        height: 0%;
+        margin-bottom: 150px;
+        font-size: 16px;
+        position: static;
+        }
+
+
+        section {
+            display: flex;
+                align-items: center;
+                justify-content: center;
+                max-height: 100vh;
+            }
+
+            a{
+                color: black;
+                text-decoration: none;
+            }
+// aca nuevo 22-5
+
+
+
+
+
+
+#effect-hover .img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    margin: 20px auto;
+    position: relative;
 }
 
 
-.img-fluid a img {
-	-webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .5s ease-in-out;
-	transition: .5s ease-in-out;
-}
-.img-fluid a:hover img {
-	-webkit-filter: blur(-1);
-	filter: blur(0);
+#effect-hover #efecto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background-color: rgba(150, 150, 150, 0.8);
+    opacity: 0;
+    transition: opacity 2s;
 }
 
+#effect-hover .img:hover #efecto {
+    opacity: 1;
+}
+
+#effect-hover h3 {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    font-family: stencil;
+    transition-duration: 2s;
+    margin: 0px;
+    text-decoration: none;
+}
+
+#effect-hover .img:hover h3 {
+    top: 50px;
+}
+
+#effect-hover p {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+    transition-duration: 2s;
+    margin: 0px;
+}
+
+#effect-hover .img:hover p {
+    bottom: 50px;
+    }
+
+    blockquote{
+        text-align: center;
+    }
 
 /*# sourceMappingURL=estilos.css.map */
