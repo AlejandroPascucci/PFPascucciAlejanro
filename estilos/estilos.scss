@@ -101,12 +101,6 @@ h2 {
     font-size: 40px;
 }
 
-// p.info {
-//     font-family: 'Times New Roman', Times, serif;
-//     color: rgb(155, 7, 7);
-//     text-align: center;
-//     padding: 30px;
-// }
 
 
 .cont1 {
@@ -133,6 +127,7 @@ main {
     width: 100%;
     background-color: rgba(87, 87, 87, 0.055);
     background-size: cover;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.780), rgba(63, 63, 63, 0.5)), url(../images/fondo\ main0.jpg);
 }
 
 img {
@@ -145,13 +140,14 @@ footer {
 
     text-align: center;
     padding: 20px;
-    background-color: rgb(29, 27, 27);
+    background-color: rgba(0, 0, 0, 0.795);
     line-height: 30px;
 }
 
 p {
     font-size: 20px;
     color: white;
+    margin-bottom: 25px;
 }
 
 .redes a {
@@ -295,7 +291,7 @@ blockquote {
 }
 
 body {
-    background-image: url(../images/1.1.jpg);
+
     background: linear-gradient(to bottom, rgba(175, 175, 175, 0.5), rgb(175, 175, 175, .5)), url(../images/1.1.jpg);
     background-repeat: no-repeat !important;
 }
@@ -313,6 +309,7 @@ padding: 20px;
 .card {
     padding: 20px;
     margin-bottom: 18px;
+    background-color: #ebebebaf;
 }
 
 mark {
