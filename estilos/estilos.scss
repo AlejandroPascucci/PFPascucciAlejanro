@@ -11,23 +11,24 @@
 
 header {
     text-decoration: none;
-    height: 150px;
+    height: 120px;
     width: 100%;
-    background-color: rgb(255, 255, 255);
     font-size: 40px;
+
 }
 
 .logo {
     text-align: center;
-    line-height: 10px;
-    letter-spacing: 16px;
+    line-height: 8px;
+    letter-spacing: 15px;
     text-decoration: none;
+
 }
 
 h1 {
     padding: none;
     margin-bottom: none;
-    margin-top: 15px;
+    margin-top: 60px;
     letter-spacing: 25px;
     font-family: stencil;
     font-style: normal;
@@ -35,13 +36,15 @@ h1 {
     font-size: 80px;
     text-decoration: none;
     text-align: center;
+    line-height: 70px;
+
 }
 
 
 hr {
     border: solid 1px;
-    color: rgb(102, 6, 6);
-    
+    color: rgb(155, 7, 7);
+
 }
 
 
@@ -69,15 +72,15 @@ ul a {
 }
 
 ul a:hover {
-    color: rgba(102, 6, 6, 0.651);
+    color: rgb(155, 7, 7);
     text-decoration: none;
 }
 
 span {
 
-    color: rgba(102, 6, 6, 0.651);
+    color: rgb(155, 7, 7);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 
 }
@@ -93,15 +96,17 @@ h2 {
     font-family: stencil;
     font-weight: lighter;
     text-align: center;
-    font-size: 50px;
+    margin-bottom: 30px;
+    padding: 15px;
+    font-size: 40px;
 }
 
-p.info {
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(131, 25, 25);
-    text-align: center;
-    padding: 30px;
-}
+// p.info {
+//     font-family: 'Times New Roman', Times, serif;
+//     color: rgb(155, 7, 7);
+//     text-align: center;
+//     padding: 30px;
+// }
 
 
 .cont1 {
@@ -124,9 +129,9 @@ p.info {
 }
 
 main {
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(87, 87, 87, 0.055);
     background-size: cover;
 }
 
@@ -141,7 +146,7 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: rgb(29, 27, 27);
-    line-height: 45px;
+    line-height: 30px;
 }
 
 p {
@@ -158,7 +163,7 @@ p {
 }
 
 .redes a:hover {
-    color: rgb(102, 6, 6);
+    color: rgb(155, 7, 7);
 }
 
 
@@ -172,11 +177,13 @@ p {
     background-color: rgb(39, 53, 12);
     color: antiquewhite;
     text-align: center;
+    font-size: 16px;
 }
 
 .card-text {
     color: rgb(15, 20, 4);
     text-align: center;
+    font-size: 16px;
 }
 
 .text-muted {
@@ -185,45 +192,43 @@ p {
 
 }
 
-.wrap{
+.wrap {
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(../images/1.jpg);
+    background: linear-gradient(to bottom, rgba(175, 175, 175, 0.5), rgba(0, 0, 0, 0.5)), url(../images/1.jpg);
     background-size: cover;
     background-position: center;
-    }
+}
 
-    .wrap-texto{
+.wrap-texto {
 
-        color: #fff;
-        text-align: center;
-        width: 60%;
-        height: 0%;
-        margin-bottom: 150px;
-        font-size: 16px;
-        position: static;
-        }
+    color: #fff;
+    text-align: center;
+    width: 60%;
+    height: 0%;
+    margin-bottom: 150px;
+    font-size: 16px;
+    position: static;
+    text-shadow: #000000 1px 0 3px;
+}
 
 
-        section {
-            display: flex;
-                align-items: center;
-                justify-content: center;
-                max-height: 100vh;
-            }
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+}
 
-            a{
-                color: black;
-                text-decoration: none;
-            }
+a {
+    color: black;
+    text-decoration: none;
+}
+
 // aca nuevo 22-5
-
-
-
-
 
 
 #effect-hover .img {
@@ -283,10 +288,40 @@ p {
 
 #effect-hover .img:hover p {
     bottom: 50px;
-    }
+}
 
-    blockquote{
-        text-align: center;
-    }
+blockquote {
+    text-align: center;
+}
+
+body {
+    background-image: url(../images/1.1.jpg);
+    background: linear-gradient(to bottom, rgba(175, 175, 175, 0.5), rgb(175, 175, 175, .5)), url(../images/1.1.jpg);
+    background-repeat: no-repeat !important;
+}
+
+
+iframe {
+    margin-top: 15px;
+}
+
+section {
+
+padding: 20px;
+}
+
+.card {
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+mark {
+font-weight: bold;
+color: rgb(36, 36, 36);
+background-color: transparent;
+}
+
+
+
 
 /*# sourceMappingURL=estilos.css.map */
