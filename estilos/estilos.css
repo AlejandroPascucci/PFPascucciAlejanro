@@ -114,7 +114,7 @@ img {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.795);
+  background-color: rgba(0, 0, 0, 0.856);
   line-height: 30px;
 }
 
@@ -164,7 +164,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to bottom, rgba(175, 175, 175, 0.5), rgba(0, 0, 0, 0.5)), url(../images/1.jpg);
+  background: linear-gradient(to bottom, rgba(175, 175, 175, 0.5), rgba(0, 0, 0, 0.911)), url(../images/1.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -174,7 +174,7 @@ p {
   text-align: center;
   width: 60%;
   height: 0%;
-  margin-bottom: 150px;
+  margin-bottom: 350px;
   font-size: 16px;
   position: static;
   text-shadow: #000000 1px 0 3px;
@@ -277,6 +277,10 @@ mark {
   font-weight: bold;
   color: rgb(36, 36, 36);
   background-color: transparent;
+}
+
+h3 :hover {
+  font-style: rgb(155, 7, 7);
 }
 
 /*# sourceMappingURL=estilos.css.map */
